@@ -13,7 +13,7 @@ RegisterCommand("adrev", function(source, args, rawCommand)
 end, false)
 
 function sendToDiscord(title, message)
-    local webhook = "https://discord.com/api/webhooks/1340956169589493860/AEoWpymNrBvDtKI8EITykOJoG6xzwpgT6D8pVvhxamAHOkAlqgvGfFq3iiVDepgNvuwq"
+    local webhook = "Put Webhook Here"
     local embed = {
     {
         ["title"] = title,
